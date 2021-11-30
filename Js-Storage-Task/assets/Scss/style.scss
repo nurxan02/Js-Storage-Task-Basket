@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(212, 212, 212);
+}
+.container {
+    nav {
+        position: relative;
+        .container-fluid {
+            .navbar-collapse {
+                .icon {
+                    .dropdown-menu {
+                        width: 450px;
+                        height: 1000px;
+                        background-color: rgb(223, 223, 223);
+                        position: absolute;
+                        right: 0%;
+                        transition: 0.5s;
+                        z-index: 1;
+                        border-radius: 20px;
+                        display: none;
+                        span{
+                            position: relative;
+                            left: 10%;
+                            top: 2%;
+                        }
+                    }
+                    .dropdown-menu:hover{
+                        transform: scale(1.1);
+                    }
+                    i {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .row {
+        .cards {
+            margin-top: 30px;
+            .card {
+                border-top-left-radius: 20px;
+                border-radius: 20px;
+                transition: 0.5s;
+
+                img {
+                    width: 200px;
+                }
+            }
+            .card:hover{
+                transition: 0.5s;
+                transform: scale(1.05);
+                box-shadow: 0px 0px 10px 2px rgb(139, 139, 139);
+            }
+        }
+    }
+}
